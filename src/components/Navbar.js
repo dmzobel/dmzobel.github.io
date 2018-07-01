@@ -7,7 +7,7 @@ const Navbar = () => (
       <h1>Marshall Zobel</h1>
     </Link>
     <Link to="/projects">Projects</Link>
-    <Link to="/resume">Resume</Link>
+    <Link to="/timeline">Timeline</Link>
   </div>
 );
 

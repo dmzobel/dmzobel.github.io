@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+#app {
+  overflow-y: scroll;
+}
+
 .navbar {
   background-color: red;
   display: flex;

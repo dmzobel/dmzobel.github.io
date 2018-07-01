@@ -8,7 +8,7 @@ import {
 import Navbar from './Navbar';
 import Home from './Home';
 import Projects from './Projects';
-import Resume from './Resume';
+import Timeline from './Timeline';
 
 const App = () => (
   <Router>
@@ -17,7 +17,7 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
-        <Route path="/resume" component={Resume} />
+        <Route path="/timeline" component={Timeline} />
         <Redirect to="/" />
       </Switch>
     </div>
