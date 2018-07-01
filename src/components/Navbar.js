@@ -6,8 +6,8 @@ const Navbar = () => (
     <Link to="/">
       <h1>Marshall Zobel</h1>
     </Link>
-    <Link to="/projects">Projects</Link>
     <Link to="/timeline">Timeline</Link>
+    <Link to="/projects">Projects</Link>
   </div>
 );
 
