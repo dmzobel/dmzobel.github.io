@@ -1,31 +1,37 @@
 import React from 'react';
-import { Marshall } from '../images';
+import { Marshall, leftArrow, jsIcon, skiing } from '../images';
 
 const Home = () => (
   <React.Fragment>
     <div className="home-container">
-      <img src={Marshall} alt="" className="image" />
-      <div className="bio">
-        <p>
-          Hey, welcome to my site! My name is Marshall and I am software
-          developer currently living in New York City.
-        </p>
-        <p>
-          I am originally from Virginia, where I attended the College of William
-          and Mary.
-        </p>
-        <p>
-          After working for several years in the consulting industry, I
-          developed an interest in coding that eventually pushed me to enroll in
-          Fullstack Academy of code.
-        </p>
+      <div>
+        <p>Who is Marshall?</p>
+      </div>
+      <img src={Marshall} alt="" className="headshot" />
+      <div>
+        <p>He's this guy!</p>
+        <img src={leftArrow} alt="" className="icon" />
       </div>
     </div>
-    <div className="interests">
-      <p>Financial crisis</p>
-      <p>Books</p>
-      <p>Baseball / Sports</p>
-      <p>Movie posters: Arrival, Her, Good Will Hunting, Wind River</p>
+    <div className="about">
+      <div className="about-block">
+        <p>What technologies does he work with?</p>
+        <img src={jsIcon} alt="" className="icon" />
+      </div>
+      <div className="about-block">
+        <p>Hobbies and Interests</p>
+        <img src={skiing} alt="" className="icon" />
+      </div>
+      <div className="about-block">
+        <p>Spends way too much time watching movies</p>
+        <img
+          src={
+            'https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_UX182_CR0,0,182,268_AL_.jpg'
+          }
+          alt=""
+          className="icon"
+        />
+      </div>
     </div>
   </React.Fragment>
 );

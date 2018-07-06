@@ -28,7 +28,7 @@
   transition: all 0.25s;
 }
 
-.navbar a:hover {
+.navbar a:hover:not(:first-of-type) {
   background-color: white;
   color: navy;
   /* transform: scale(1.1); */
@@ -36,13 +36,23 @@
 
 .home-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.image {
-  border-radius: 10px;
+.headshot {
+  border-radius: 50%;
 }
 
-.bio {
-  margin: 25px 50px;
+.icon {
+  width: 100px;
+}
+
+.about {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-block {
+  flex: 0 0 50%;
 }
