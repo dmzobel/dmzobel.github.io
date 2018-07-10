@@ -4,11 +4,11 @@ import { Marshall, leftArrow, jsIcon, skiing } from '../images';
 const Home = () => (
   <React.Fragment>
     <div className="home-container">
-      <div>
+      <div className="banner-text">
         <p>Who is Marshall?</p>
       </div>
       <img src={Marshall} alt="" className="headshot" />
-      <div>
+      <div className="banner-text">
         <p>He's this guy!</p>
         <img src={leftArrow} alt="" className="icon" />
       </div>

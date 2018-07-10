@@ -43,6 +43,10 @@
   border-radius: 50%;
 }
 
+.banner-text {
+  font-family: 'Anonymous Pro', monospace;
+}
+
 .icon {
   width: 100px;
 }
