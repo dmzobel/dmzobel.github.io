@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Timeline = () => (
-  <React.Fragment>
+  <div className="timeline-container">
     <p>Timeline goes here</p>
-  </React.Fragment>
+  </div>
 );
 
 export default Timeline;
