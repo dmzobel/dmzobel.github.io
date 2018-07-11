@@ -33,10 +33,21 @@
 .home-container {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+
+/* used to make images circular */
+.circle-img {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .headshot {
-  border-radius: 50%;
+  width: 100%;
+  height: auto;
 }
 
 .banner-text p {
@@ -48,12 +59,11 @@
 }
 
 .about {
-  border-top: 1px solid rgb(68, 93, 110);
+  /* border-top: 1px solid rgb(68, 93, 110); */
 }
 
 .about-block {
-  width: 100%;
-  padding: 40px;
+  padding: 50px;
 }
 
 .about-block:nth-child(odd) {

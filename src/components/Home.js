@@ -7,12 +7,15 @@ const Home = () => (
       <div className="banner-text">
         <p>Who is Marshall?</p>
       </div>
-      <img src={Marshall} alt="" className="headshot" />
+      <div className="circle-img">
+        <img src={Marshall} alt="" className="headshot" />
+      </div>
       <div className="banner-text">
         <p>He's this guy!</p>
         <img src={leftArrow} alt="" className="icon" />
       </div>
     </div>
+    <div>Find out what he's all about!</div>
     <div className="about">
       <div className="about-block">
         <p>What technologies does he work with?</p>
