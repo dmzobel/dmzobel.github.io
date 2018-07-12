@@ -1,5 +1,4 @@
 import React from 'react';
-import { jsIcon } from '../images';
 
 export default () => (
   <div className="about-block">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Marshall, leftArrow } from '../images';
+import { Marshall } from '../images';
 import Technologies from './Technologies';
 import Interests from './Interests';
 
