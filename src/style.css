@@ -84,6 +84,22 @@
   transform: scale(1.1);
 }
 
+.project-section {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background-color: #f7f7f7;
+  border-bottom: groove;
+}
+.project-section div {
+  text-align: center;
+  padding: 75px;
+}
+
+.screenshot {
+  max-height: 400px;
+}
+
 .small-icon {
   height: 30px;
 }
