@@ -2,7 +2,6 @@ import React from 'react';
 import { Marshall } from '../images';
 import Technologies from './Technologies';
 import Interests from './Interests';
-import FooterTechnologies from './FooterTechnologies';
 
 const Home = () => (
   <React.Fragment>
@@ -12,7 +11,7 @@ const Home = () => (
       </div>
       <div className="banner-text">
         <h2>Hey, I'm Marshall:</h2>
-        <Technologies />
+        <Technologies primary={true} />
         <p>
           I'm a software developer currently living in New York. I specialize in
           writing JavaScript at all levels of the stack, but I'm always up for
@@ -30,11 +29,13 @@ const Home = () => (
         <br />
       </div>
     </div>
-    <div className="footer">
-      <div>
-        <h4>Other Technical Proficiencies:</h4>
-        <FooterTechnologies />
-      </div>
+    <div className="sub-section">
+      <h1>Technical Proficiency</h1>
+      <Technologies />
+    </div>
+    <div className="sub-section">
+      <h1>Interests</h1>
+      <Interests />
     </div>
   </React.Fragment>
 );
