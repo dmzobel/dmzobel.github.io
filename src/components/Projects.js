@@ -1,10 +1,15 @@
 import React from 'react';
+import { bhDemo1, bhDemo2 } from '../images';
 
 const Projects = () => (
   <React.Fragment>
-    <h1>Banana Hunt</h1>
-    <h1>Vintage</h1>
-    <h1>WizBang</h1>
+    <div>
+      <h1>Banana Hunt</h1>
+      <img src={bhDemo1} alt="" />
+      <img src={bhDemo2} alt="" />
+    </div>
+    <div>Vintage</div>
+    <div>WizBang</div>
   </React.Fragment>
 );
 
