@@ -20,6 +20,8 @@ const Projects = () => (
       </div>
       <img src={bhDemo2} alt="" className="screenshot" />
     </div>
+    <hr className="divider" />
+
     <div className="project-section">
       <div>
         <h1>Vintage</h1>
@@ -47,6 +49,8 @@ const Projects = () => (
       </div>
       <img src={vintage} alt="" className="screenshot-desktop" />
     </div>
+    <hr className="divider" />
+
     <div className="project-section">
       <img src={wizBang} alt="" className="screenshot-desktop" />
       <div>
