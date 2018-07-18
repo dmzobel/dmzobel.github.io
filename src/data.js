@@ -1,4 +1,4 @@
-export const experience = [
+const data = [
   {
     id: 1,
     category: 'Work Experience',
@@ -71,3 +71,5 @@ export const experience = [
       'Descended North Kaibab trail, camped at Phantom Ranch on Bright Angel Creek, ascended South Kaibab trail.'
   }
 ];
+
+export default data;

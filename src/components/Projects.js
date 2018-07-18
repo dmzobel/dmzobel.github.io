@@ -17,6 +17,17 @@ const Projects = () => (
           bananas as you want, wherever you want, in as wide an area as you
           want, and then see who can capture them the quickest!
         </p>
+        <a
+          href="https://github.com/BananaHuntAR"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://image.flaticon.com/icons/svg/25/25231.svg"
+            alt=""
+            className="icon"
+          />
+        </a>
       </div>
       <img src={bhDemo2} alt="" className="screenshot" />
     </div>
@@ -36,16 +47,25 @@ const Projects = () => (
         <p>
           Vintage is a data modeling web application that allows users to
           compare the quality of different wine vintages. Using the{' '}
-          <inline>
-            <a href="https://www.ncdc.noaa.gov/cdo-web/webservices/v2">
-              NOAA Climate Data API
-            </a>
-          </inline>
+          <a href="https://www.ncdc.noaa.gov/cdo-web/webservices/v2">
+            NOAA Climate Data API
+          </a>
           , the application gathers climate data from various regions around the
           world and feeds the data into Princeton economist Orley Ashenfelter's
           Bordeaux Equation, generating a score for each vintage that is
           predictive of the wine's quality.
         </p>
+        <a
+          href="https://github.com/dmzobel/vintage"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://image.flaticon.com/icons/svg/25/25231.svg"
+            alt=""
+            className="icon"
+          />
+        </a>
       </div>
       <img src={vintage} alt="" className="screenshot-desktop" />
     </div>
@@ -64,6 +84,17 @@ const Projects = () => (
           allowing users to save items to a Wish List and view their previous
           orders.
         </p>
+        <a
+          href="https://github.com/wizards-store/grace-shopper"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://image.flaticon.com/icons/svg/25/25231.svg"
+            alt=""
+            className="icon"
+          />
+        </a>
       </div>
     </div>
   </React.Fragment>
