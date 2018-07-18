@@ -37,6 +37,13 @@
   left: calc(50% - 150px); */
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .headshot {
   width: 100%;
   height: auto;
@@ -89,7 +96,7 @@
   align-items: center;
   padding: 50px;
   background-color: #f7f7f7;
-  border-bottom: groove;
+  border-bottom: solid;
 }
 .project-section div {
   text-align: center;
@@ -98,6 +105,11 @@
 
 .screenshot {
   max-height: 400px;
+}
+.screenshot-desktop {
+  max-width: 800px;
+  border: 5px solid #f7f7f7;
+  box-shadow: 0 0 30px -5px;
 }
 
 .small-icon {
