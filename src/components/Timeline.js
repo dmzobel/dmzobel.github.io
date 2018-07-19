@@ -5,19 +5,31 @@ const TimelineItem = ({ data }) => {
   return (
     <div className="timeline-block">
       <div className="timeline-item">
-        <p>{data.category}</p>
-        <h4>{data.institution}</h4>
-        <p>{data.title}</p>
-        <p>{data.dates}</p>
-        <p>{data.description}</p>
+        <h5 className="resume-category">{data.category}</h5>
+        {data.title ? (
+          <h4 className="resume-title">
+            {data.title} - {data.place}
+          </h4>
+        ) : (
+          <h4 className="resume-title">{data.place}</h4>
+        )}
+        <ul className="resume-description">
+          {data.description.map(item => (
+            <li>
+              <h5>{item}</h5>
+            </li>
+          ))}
+        </ul>
       </div>
+
+      <h4 className="timeline-date">{data.dates}</h4>
     </div>
   );
 };
 
 const Timeline = () => (
   <div className="timeline-container">
-    {data.map(element => <TimelineItem data={element} />)}
+    {data.map(element => <TimelineItem key={element.id} data={element} />)}
   </div>
 );
 
