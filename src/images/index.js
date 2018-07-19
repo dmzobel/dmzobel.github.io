@@ -3,3 +3,8 @@ export { default as bhDemo1 } from './bh-demo1.png';
 export { default as bhDemo2 } from './bh-demo2.png';
 export { default as vintage } from './vintage.png';
 export { default as wizBang } from './wizBang.png';
+export { default as grantThornton } from './grant-thornton.png';
+export { default as pwc } from './pwc.svg';
+export { default as stAndrews } from './st-andrews.png';
+export { default as wm } from './wm-logo.png';
+export { default as fullstack } from './fullstack.jpg';

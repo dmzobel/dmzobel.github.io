@@ -99,11 +99,11 @@ h4 {
 .project-section {
   display: flex;
   align-items: center;
-  padding: 50px;
+  padding: 70px;
 }
 .project-section div {
   text-align: center;
-  padding: 75px;
+  padding: 0 50px;
 }
 
 .resume-category {
@@ -164,6 +164,8 @@ h4 {
   flex-direction: row-reverse;
 }
 .timeline-item {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
   position: relative;
   width: 40%;

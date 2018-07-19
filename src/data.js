@@ -1,3 +1,5 @@
+import { wm, fullstack, stAndrews, pwc, grantThornton } from './images';
+
 const data = [
   // TODO: images for all of these
   {
@@ -9,7 +11,8 @@ const data = [
     description: [
       'Mentor for over 50 Fullstack Academy students',
       'Help teach software engineering concepts, algorithms, debugging strategies, and code hygiene'
-    ]
+    ],
+    image: fullstack
   },
   {
     id: 2,
@@ -19,7 +22,8 @@ const data = [
     dates: 'May 2018',
     description: [
       'Immersive software engineering program, focused on fullstack JavaScript development'
-    ]
+    ],
+    image: fullstack
   },
   {
     id: 3,
@@ -31,7 +35,8 @@ const data = [
       'Mapped client processes across multiple operational areas and tested the effectiveness of internal controls',
       'Summarized control deficiencies and recommended improvements',
       'Managed the planning and execution of control testing stages'
-    ]
+    ],
+    image: pwc
   },
   {
     id: 4,
@@ -42,7 +47,8 @@ const data = [
     description: [
       'Conducted SOX-404 compliance assessments for telecommunications, pharmaceutical, and hospitality clients',
       'Managed a team of international support staff based in India'
-    ]
+    ],
+    image: grantThornton
   },
   {
     id: 5,
@@ -50,7 +56,8 @@ const data = [
     place: 'The College of William and Mary',
     title: '',
     dates: 'May 2015',
-    description: ['Bachelor of Business Administration, Accounting']
+    description: ['Bachelor of Business Administration, Accounting'],
+    image: wm
   },
   {
     id: 6,
@@ -70,7 +77,8 @@ const data = [
     place: 'The University of St. Andrews',
     title: '',
     dates: 'Jan 2013 - May 2013',
-    description: ['Semester Study Abroad']
+    description: ['Semester Study Abroad'],
+    image: stAndrews
   },
   {
     id: 8,
@@ -82,12 +90,12 @@ const data = [
   {
     id: 9,
     category: 'Cool Stuff',
-    place: 'Backpacked the Grand Canyon from North to South Rim',
+    place: 'Backpacked the Grand Canyon',
     dates: 'June 2012',
     description: [
-      'Descended North Kaibab trail',
+      `Descended from the North Rim's North Kaibab trail`,
       'Camped at Phantom Ranch on Bright Angel Creek',
-      'Ascended South Kaibab trail'
+      'Ascended the South Rim via South Kaibab trail'
     ]
   }
 ];

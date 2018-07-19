@@ -5,21 +5,24 @@ const TimelineItem = ({ data }) => {
   return (
     <div className="timeline-block">
       <div className="timeline-item">
-        <h5 className="resume-category">{data.category}</h5>
-        {data.title ? (
-          <h4 className="resume-title">
-            {data.title} - {data.place}
-          </h4>
-        ) : (
-          <h4 className="resume-title">{data.place}</h4>
-        )}
-        <ul className="resume-description">
-          {data.description.map(item => (
-            <li>
-              <h5>{item}</h5>
-            </li>
-          ))}
-        </ul>
+        <div>
+          <h5 className="resume-category">{data.category}</h5>
+          {data.title ? (
+            <h4 className="resume-title">
+              {data.title} - {data.place}
+            </h4>
+          ) : (
+            <h4 className="resume-title">{data.place}</h4>
+          )}
+          <ul className="resume-description">
+            {data.description.map(item => (
+              <li>
+                <h5>{item}</h5>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <img src={data.image} alt="" className="small-icon" />
       </div>
 
       <h4 className="timeline-date">{data.dates}</h4>
