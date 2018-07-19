@@ -112,8 +112,6 @@ h4 {
 .resume-description {
   padding: 5px 25px;
 }
-.resume-title {
-}
 
 .screenshot {
   max-height: 400px;
@@ -139,7 +137,7 @@ h4 {
 .timeline-container::before {
   content: '';
   position: absolute;
-  left: 50%;
+  left: calc(50% - 2.5px);
   height: 100%;
   width: 5px;
   background: slategray;
@@ -149,30 +147,40 @@ h4 {
 /* bottom: 0; */
 /* left: 18px; */
 
+.timeline-block {
+  display: flex;
+  align-items: center;
+  margin: 20px 100px;
+}
+.timeline-block:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
 .timeline-container {
   margin: 50px;
   position: relative;
 }
 
-.timeline-block {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-  padding: 0 20px;
+.timeline-date {
+  margin: 0 10%;
 }
-.timeline-block:nth-child(even) {
-  flex-direction: row-reverse;
-}
+
 .timeline-item {
   display: flex;
   justify-content: space-between;
   background-color: white;
   position: relative;
-  width: 40%;
+  width: 43%;
   padding: 10px;
   box-shadow: 0 0 20px -5px;
   border-radius: 10px;
 }
-.timeline-date {
-  margin: 0 10%;
+
+.timeline-marker {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: calc(50% - 15px);
+  background-color: slategray;
 }

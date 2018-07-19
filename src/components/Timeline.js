@@ -25,6 +25,8 @@ const TimelineItem = ({ data }) => {
         <img src={data.image} alt="" className="small-icon" />
       </div>
 
+      <div className="timeline-marker" />
+
       <h4 className="timeline-date">{data.dates}</h4>
     </div>
   );

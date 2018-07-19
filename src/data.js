@@ -32,8 +32,8 @@ const data = [
     title: 'Experienced Advisory Associate',
     dates: 'Nov 2016 - Feb 2018',
     description: [
-      'Mapped client processes across multiple operational areas and tested the effectiveness of internal controls',
-      'Summarized control deficiencies and recommended improvements',
+      'Tested the effectiveness of internal controls, summarized control deficiencies, and recommended improvements',
+      'Mapped client processes across multiple operational areas',
       'Managed the planning and execution of control testing stages'
     ],
     image: pwc
@@ -45,7 +45,7 @@ const data = [
     title: 'Advisory Associate',
     dates: 'Aug 2015 - Oct 2016',
     description: [
-      'Conducted SOX-404 compliance assessments for telecommunications, pharmaceutical, and hospitality clients',
+      'Conducted SOX-404 compliance assessments for telecomm, pharmaceutical, and hospitality clients',
       'Managed a team of international support staff based in India'
     ],
     image: grantThornton
@@ -77,7 +77,10 @@ const data = [
     place: 'The University of St. Andrews',
     title: '',
     dates: 'Jan 2013 - May 2013',
-    description: ['Semester Study Abroad'],
+    description: [
+      'Semester Study Abroad',
+      'Major: golf, tea, and cliff hiking'
+    ],
     image: stAndrews
   },
   {

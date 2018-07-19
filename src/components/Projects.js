@@ -23,7 +23,7 @@ const Projects = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
+          GitHub
         </a>{' '}
         |{' '}
         <a
@@ -54,8 +54,8 @@ const Projects = () => (
         <p>
           To the everyday consumer, wine can be an intimidating purchase.
           Vintage hopes to ease some of those feelings by narrowing the
-          consumer's focus to a select few regions and vintages that have a high
-          likelihood of producing a good quality wine.
+          consumer's focus to a select few regions and vintages that have a
+          greater likelihood of producing high quality wine.
         </p>
         <br />
         <p>
@@ -75,7 +75,7 @@ const Projects = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
+          GitHub
         </a>{' '}
         |{' '}
         <a
@@ -109,7 +109,7 @@ const Projects = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
+          GitHub
         </a>{' '}
         |{' '}
         <a
