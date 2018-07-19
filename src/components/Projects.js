@@ -53,9 +53,9 @@ const Projects = () => (
         <br />
         <p>
           To the everyday consumer, wine can be an intimidating purchase.
-          Vintage hopes to ease some of those feelings by narrowing the
-          consumer's focus to a select few regions and vintages that have a
-          greater likelihood of producing high quality wine.
+          Vintage hopes to ease some of those feelings by focusing the
+          consumer's attention on regions and vintages that have a greater
+          likelihood of producing high quality wine.
         </p>
         <br />
         <p>
