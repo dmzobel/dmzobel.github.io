@@ -6,7 +6,10 @@ const data = [
     place: 'Fullstack Academy',
     title: 'Teaching Fellow',
     dates: 'June 2018 - Aug 2018',
-    description: []
+    description: [
+      'Mentor for over 50 Fullstack Academy students',
+      'Help teach software engineering concepts, algorithms, debugging strategies, and code hygiene'
+    ]
   },
   {
     id: 2,
@@ -14,7 +17,9 @@ const data = [
     place: 'Fullstack Academy',
     title: '',
     dates: 'Feb 2018 - May 2018',
-    description: []
+    description: [
+      'Immersive software engineering program, focused on fullstack JavaScript development'
+    ]
   },
   {
     id: 3,
@@ -22,7 +27,11 @@ const data = [
     place: 'PwC LLP',
     title: 'Experienced Advisory Associate',
     dates: 'Nov 2016 - Feb 2018',
-    description: []
+    description: [
+      'Mapped client processes across multiple operational areas and tested the effectiveness of internal controls',
+      'Summarized control deficiencies and recommended improvements',
+      'Managed the planning and execution of control testing stages'
+    ]
   },
   {
     id: 4,
@@ -30,7 +39,10 @@ const data = [
     place: 'Grant Thornton',
     title: 'Advisory Associate',
     dates: 'Aug 2015 - Oct 2016',
-    description: []
+    description: [
+      'Conducted SOX-404 compliance assessments for telecommunications, pharmaceutical, and hospitality clients',
+      'Managed a team of international support staff based in India'
+    ]
   },
   {
     id: 5,
@@ -38,7 +50,7 @@ const data = [
     place: 'The College of William and Mary',
     title: '',
     dates: 'Jan 2012 - May 2015',
-    description: []
+    description: ['Bachelor of Business Administration, Accounting']
   },
   {
     id: 6,
@@ -58,7 +70,7 @@ const data = [
     place: 'The University of St. Andrews',
     title: '',
     dates: 'Jan 2013 - May 2013',
-    description: []
+    description: ['Semester Study Abroad']
   },
   {
     id: 8,
