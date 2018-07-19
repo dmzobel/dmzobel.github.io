@@ -17,16 +17,22 @@ const Projects = () => (
           bananas as you want, wherever you want, in as wide an area as you
           want, and then see who can capture them the quickest!
         </p>
+        <br />
         <a
           href="https://github.com/BananaHuntAR"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="https://image.flaticon.com/icons/svg/25/25231.svg"
-            alt=""
-            className="icon"
-          />
+          Github
+        </a>{' '}
+        |{' '}
+        <a
+          href="https://bananahuntar.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {' '}
+          Website
         </a>
       </div>
       <img src={bhDemo2} alt="" className="screenshot" />
@@ -55,16 +61,21 @@ const Projects = () => (
           Bordeaux Equation, generating a score for each vintage that is
           predictive of the wine's quality.
         </p>
+        <br />
         <a
           href="https://github.com/dmzobel/vintage"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="https://image.flaticon.com/icons/svg/25/25231.svg"
-            alt=""
-            className="icon"
-          />
+          Github
+        </a>{' '}
+        |{' '}
+        <a
+          href="https://www.youtube.com/watch?v=TcvQIIqjxEc"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Demo Video
         </a>
       </div>
       <img src={vintage} alt="" className="screenshot-desktop" />
@@ -84,16 +95,22 @@ const Projects = () => (
           allowing users to save items to a Wish List and view their previous
           orders.
         </p>
+        <br />
         <a
           href="https://github.com/wizards-store/grace-shopper"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="https://image.flaticon.com/icons/svg/25/25231.svg"
-            alt=""
-            className="icon"
-          />
+          Github
+        </a>{' '}
+        |{' '}
+        <a
+          href="https://wizbang-1802.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {' '}
+          Website
         </a>
       </div>
     </div>
