@@ -33,6 +33,14 @@ const Projects = () => (
         >
           {' '}
           Website
+        </a>{' '}
+        |{' '}
+        <a
+          href="https://www.youtube.com/watch?v=LcGKAu49MnA"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Demo Video
         </a>
       </div>
       <img src={bhDemo2} alt="" className="screenshot" />

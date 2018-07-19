@@ -16,7 +16,7 @@ const data = [
     category: 'Education',
     place: 'Fullstack Academy',
     title: '',
-    dates: 'Feb 2018 - May 2018',
+    dates: 'May 2018',
     description: [
       'Immersive software engineering program, focused on fullstack JavaScript development'
     ]
@@ -49,7 +49,7 @@ const data = [
     category: 'Education',
     place: 'The College of William and Mary',
     title: '',
-    dates: 'Jan 2012 - May 2015',
+    dates: 'May 2015',
     description: ['Bachelor of Business Administration, Accounting']
   },
   {
