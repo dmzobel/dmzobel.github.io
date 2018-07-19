@@ -22,9 +22,9 @@ const Home = () => (
         <p>
           My humble beginnings in the tech world began with a Codecademy course,
           which led to Harvard's online CS50, which developed into an unexpected
-          passion that I could no longer ignore. So, after working as a
-          consultant in Washington D.C. for several years, I decided it was time
-          for a new adventure.
+          passion that I couldn't ignore. So, after working as a consultant in
+          Washington D.C. for several years, I decided it was time for a new
+          adventure.
         </p>
         <br />
         <p>
