@@ -6,9 +6,12 @@
   color: rgb(71, 71, 71);
 }
 
+body {
+  background-color: #f7f7f7;
+}
+
 #app {
   overflow-y: scroll;
-  background-color: #f7f7f7;
 }
 
 .banner {
@@ -200,6 +203,10 @@ h4 {
     flex-direction: column;
     align-items: flex-start;
   }
+  .project-section {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
   .screenshot {
     max-height: 300px;
     margin: 20px 0;
@@ -208,15 +215,11 @@ h4 {
     max-width: 80%;
     margin: 20px 0;
   }
-  .project-section {
-    flex-direction: column;
-    padding: 20px 10px;
+  .timeline-block {
+    margin: 20px;
   }
   .timeline-container {
     margin: 0;
-  }
-  .timeline-block {
-    margin: 20px;
   }
 }
 
@@ -297,5 +300,6 @@ h4 {
   }
   .timeline-marker {
     left: calc(1% - 12.5px);
+    margin-top: 30px;
   }
 }

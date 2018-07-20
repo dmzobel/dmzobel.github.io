@@ -3,7 +3,7 @@ import { wm, fullstack, stAndrews, pwc, grantThornton } from './images';
 const data = [
   // TODO: images for all of these
   {
-    id: 1,
+    id: 10,
     category: 'Work Experience',
     place: 'Fullstack Academy',
     title: 'Teaching Fellow',
@@ -15,7 +15,7 @@ const data = [
     image: fullstack
   },
   {
-    id: 2,
+    id: 9,
     category: 'Education',
     place: 'Fullstack Academy',
     title: '',
@@ -26,7 +26,7 @@ const data = [
     image: fullstack
   },
   {
-    id: 3,
+    id: 8,
     category: 'Work Experience',
     place: 'PwC LLP',
     title: 'Experienced Advisory Associate',
@@ -39,7 +39,18 @@ const data = [
     image: pwc
   },
   {
-    id: 4,
+    id: 7,
+    category: 'Cool Stuff',
+    place: 'Pilgrimage to the Land of My Ancestors (Ireland)',
+    dates: 'Sept 2017',
+    description: [
+      'Hiked from Doolin up to Cliffs of Moher',
+      'Danced with the locals',
+      'Learned to pour the perfect pint of Guinness'
+    ]
+  },
+  {
+    id: 6,
     category: 'Work Experience',
     place: 'Grant Thornton',
     title: 'Advisory Associate',
@@ -60,7 +71,7 @@ const data = [
     image: wm
   },
   {
-    id: 6,
+    id: 4,
     category: 'Cool Stuff',
     place: 'Great Northeast Roadtrip',
     dates: 'March 2015',
@@ -72,7 +83,7 @@ const data = [
     ]
   },
   {
-    id: 7,
+    id: 3,
     category: 'Education',
     place: 'The University of St. Andrews',
     title: '',
@@ -84,14 +95,14 @@ const data = [
     image: stAndrews
   },
   {
-    id: 8,
+    id: 2,
     category: 'Cool Stuff',
     place: 'Spent 5 days in a deserted Italian monastery',
     dates: 'March 2013',
     description: ['I thought there would be more people. There were not.']
   },
   {
-    id: 9,
+    id: 1,
     category: 'Cool Stuff',
     place: 'Backpacked the Grand Canyon',
     dates: 'June 2012',
