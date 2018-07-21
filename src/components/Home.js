@@ -47,15 +47,3 @@ const Home = () => (
 );
 
 export default Home;
-
-// <div>
-//   <div className="top-divider">
-//     <h2>About Me</h2>
-//   </div>
-
-//   <div className="bottom-divider">
-//     <h2>Technical Proficiencies</h2>
-//   </div>
-// </div>
-// <Technologies />
-// <Interests />

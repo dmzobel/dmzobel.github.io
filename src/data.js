@@ -44,9 +44,9 @@ const data = [
     place: 'Pilgrimage to the Land of My Ancestors (Ireland)',
     dates: 'Sept 2017',
     description: [
-      'Hiked from Doolin up to Cliffs of Moher',
+      'Hiked from Doolin up the Cliffs of Moher',
       'Danced with the locals',
-      'Learned to pour the perfect pint of Guinness'
+      `Stole a leprechaun's pot o' gold`
     ]
   },
   {
@@ -90,7 +90,8 @@ const data = [
     dates: 'Jan 2013 - May 2013',
     description: [
       'Semester Study Abroad',
-      'Major: golf, tea, and cliff hiking'
+      'Major: golf, tea, and cliff hiking',
+      `Blog: https://dmzobel.wordpress.com/`
     ],
     image: stAndrews
   },

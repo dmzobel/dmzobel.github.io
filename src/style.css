@@ -139,10 +139,6 @@ h4 {
   width: 5px;
   background: slategray;
 }
-/* Vertical line styling for responsive layouts */
-/* top: 0; */
-/* bottom: 0; */
-/* left: 18px; */
 
 .timeline-block {
   display: flex;
@@ -173,17 +169,21 @@ h4 {
   border-radius: 10px;
 }
 
+/* circular markers on the timeline */
 .timeline-marker {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  left: calc(50% - 15px);
+  left: calc(50% - 10px);
   background-color: slategray;
 }
 
-/* Responsive designs */
+/* Responsive layouts */
 @media screen and (max-width: 1200px) {
+  .screenshot-desktop {
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -265,6 +265,9 @@ h4 {
   .project-section div {
     padding: 0;
   }
+  .resume-description {
+    padding: 5px 15px;
+  }
   .screenshot {
     max-height: 300px;
     margin: 20px 0;
@@ -285,7 +288,7 @@ h4 {
   .timeline-block:last-child {
     margin-bottom: 75px;
   }
-  /* this is the vertical line */
+  /* vertical line for mobile viewing */
   .timeline-container::before {
     left: 1%;
   }
@@ -299,7 +302,7 @@ h4 {
     width: 75%;
   }
   .timeline-marker {
-    left: calc(1% - 12.5px);
-    margin-top: 30px;
+    left: calc(1% - 7.5px);
+    margin-top: 25px;
   }
 }
