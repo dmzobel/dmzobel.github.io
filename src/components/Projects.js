@@ -5,7 +5,7 @@ const Projects = () => (
   <React.Fragment>
     <div className="project-section">
       <img src={bhDemo1} alt="" className="screenshot" />
-      <div>
+      <div className="project-description">
         <h1>Banana Hunt</h1>
         <br />
         <p>
@@ -16,6 +16,11 @@ const Projects = () => (
           virtual bananas in their surrounding environment. You can drop as many
           bananas as you want, wherever you want, in as wide an area as you
           want, and then see who can capture them the quickest!
+        </p>
+        <br />
+        <p>
+          <em>Technologies:</em> React Native, Expo, ARKit, ThreeJS, Expo-Three,
+          Redux, Express, Sequelize, PostgreSQL
         </p>
         <br />
         <a
@@ -48,7 +53,7 @@ const Projects = () => (
     <hr className="divider" />
 
     <div className="project-section">
-      <div>
+      <div className="project-description">
         <h1>Vintage</h1>
         <br />
         <p>
@@ -86,13 +91,66 @@ const Projects = () => (
           Demo Video
         </a>
       </div>
-      <img src={vintage} alt="" className="screenshot-desktop" />
+
+      <div className="screenshot-container-desktop">
+        <img src={vintage} alt="" className="screenshot-desktop" />
+        <div className="screenshot-overlay">
+          <div>
+            <img
+              src="https://d1eq8vvyuam4eq.cloudfront.net/assets/images/hacknlearn/react-logo.svg"
+              alt="react"
+              className="icon"
+            />
+            <img
+              src={`https://cdn.worldvectorlogo.com/logos/redux.svg`}
+              alt="redux"
+              className="icon"
+            />
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/sequelize.svg"
+              alt="sequelize"
+              className="icon"
+            />
+            <img
+              src={`https://cdn.worldvectorlogo.com/logos/postgresql.svg`}
+              alt="postgres"
+              className="icon"
+            />
+          </div>
+        </div>
+      </div>
     </div>
     <hr className="divider" />
 
     <div className="project-section">
-      <img src={wizBang} alt="" className="screenshot-desktop" />
-      <div>
+      <div className="screenshot-container-desktop">
+        <img src={wizBang} alt="" className="screenshot-desktop" />
+        <div className="screenshot-overlay">
+          <div>
+            <img
+              src="https://d1eq8vvyuam4eq.cloudfront.net/assets/images/hacknlearn/react-logo.svg"
+              alt="react"
+              className="icon"
+            />
+            <img
+              src={`https://cdn.worldvectorlogo.com/logos/redux.svg`}
+              alt="redux"
+              className="icon"
+            />
+            <img
+              src={`https://cdn.worldvectorlogo.com/logos/postgresql.svg`}
+              alt="postgres"
+              className="icon"
+            />
+            <img
+              src={`https://cdn.glitch.com/project-avatar/0d184ee3-fd8d-4b94-acf4-b4e686e57375.png`}
+              alt="passport"
+              className="icon"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="project-description">
         <h1>WizBang</h1>
         <br />
         <p>

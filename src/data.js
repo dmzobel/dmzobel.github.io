@@ -10,7 +10,8 @@ const data = [
     dates: 'June 2018 - Aug 2018',
     description: [
       'Mentor for over 50 Fullstack Academy students',
-      'Help teach software engineering concepts, algorithms, debugging strategies, and code hygiene'
+      'Help teach software engineering concepts, algorithms, debugging strategies, and code hygiene',
+      `Administered technical interviews for prospective students in JavaScript and Python`
     ],
     image: fullstack
   },
