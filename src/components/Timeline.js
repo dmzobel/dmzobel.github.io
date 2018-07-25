@@ -14,13 +14,16 @@ const TimelineItem = ({ data }) => {
           ) : (
             <h4 className="resume-title">{data.place}</h4>
           )}
-          <ul className="resume-description">
-            {data.description.map(item => (
-              <li>
-                <h5>{item}</h5>
-              </li>
-            ))}
-          </ul>
+          <details>
+            <summary>Details</summary>
+            <ul className="resume-description">
+              {data.description.map(item => (
+                <li>
+                  <h5>{item}</h5>
+                </li>
+              ))}
+            </ul>
+          </details>
         </div>
         <img src={data.image} alt="" className="small-icon" />
       </div>
