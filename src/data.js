@@ -1,4 +1,14 @@
-import { wm, fullstack, stAndrews, pwc, grantThornton } from './images';
+import {
+  wm,
+  fullstack,
+  stAndrews,
+  pwc,
+  grantThornton,
+  irishFlag,
+  northeast,
+  monastery,
+  natlParkService
+} from './images';
 
 const data = [
   // TODO: images for all of these
@@ -9,9 +19,10 @@ const data = [
     title: 'Teaching Fellow',
     dates: 'June 2018 - Aug 2018',
     description: [
-      'Mentor for over 50 Fullstack Academy students',
+      'Serve as mentor and project manager for over 50 Fullstack Academy students',
       'Help teach software engineering concepts, algorithms, debugging strategies, and code hygiene',
-      `Administered technical interviews for prospective students in JavaScript and Python`
+      `Contribute production code to Fullstack's dedicated teaching platform, performing Angular-to-React conversions for front-end modules`,
+      `Administer technical interviews for prospective students in JavaScript and Python`
     ],
     image: fullstack
   },
@@ -19,7 +30,6 @@ const data = [
     id: 9,
     category: 'Education',
     place: 'Fullstack Academy',
-    title: '',
     dates: 'May 2018',
     description: [
       'Immersive software engineering program, focused on fullstack JavaScript development'
@@ -42,13 +52,14 @@ const data = [
   {
     id: 7,
     category: 'Cool Stuff',
-    place: 'Pilgrimage to the Land of My Ancestors (Ireland)',
+    place: 'Pilgrimage to the Land of My Ancestors (i.e. Ireland)',
     dates: 'Sept 2017',
     description: [
       'Hiked from Doolin up the Cliffs of Moher',
       'Danced with the locals',
       `Stole a leprechaun's pot o' gold`
-    ]
+    ],
+    image: irishFlag
   },
   {
     id: 6,
@@ -66,7 +77,6 @@ const data = [
     id: 5,
     category: 'Education',
     place: 'The College of William and Mary',
-    title: '',
     dates: 'May 2015',
     description: ['Bachelor of Business Administration, Accounting'],
     image: wm
@@ -81,13 +91,13 @@ const data = [
       `Snowmobiled through Acadia National Park`,
       `Finished a Vermonster at the Ben and Jerry's Factory`,
       `Visited the site of the Miracle on Ice`
-    ]
+    ],
+    image: northeast
   },
   {
     id: 3,
     category: 'Education',
     place: 'The University of St. Andrews',
-    title: '',
     dates: 'Jan 2013 - May 2013',
     description: [
       'Semester Study Abroad',
@@ -101,7 +111,8 @@ const data = [
     category: 'Cool Stuff',
     place: 'Spent 5 days in a deserted Italian monastery',
     dates: 'March 2013',
-    description: ['I thought there would be more people. There were not.']
+    description: ['I thought there would be more people. There were not.'],
+    image: monastery
   },
   {
     id: 1,
@@ -112,7 +123,8 @@ const data = [
       `Descended from the North Rim's North Kaibab trail`,
       'Camped at Phantom Ranch on Bright Angel Creek',
       'Ascended the South Rim via South Kaibab trail'
-    ]
+    ],
+    image: natlParkService
   }
 ];
 

@@ -33,6 +33,18 @@ const Home = () => (
           along the way. I love the process of creating a project from scratch
           and polishing it into something beautiful, seamless, and intuitive.
         </p>
+        <br />
+        <p>
+          Aside from coding, I am a{' '}
+          <a
+            href="https://medium.com/@dmzobel/a-running-list-of-2018s-reads-3bd5aeac1917"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            voracious reader
+          </a>, frequent movie-goer, and sports nut. Feel free to reach out on
+          LinkedIn!
+        </p>
       </div>
     </div>
     <div className="sub-section">

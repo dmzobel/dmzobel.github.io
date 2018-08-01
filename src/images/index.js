@@ -8,3 +8,7 @@ export { default as pwc } from './pwc.svg';
 export { default as stAndrews } from './st-andrews.png';
 export { default as wm } from './wm-green.jpg';
 export { default as fullstack } from './fullstack.jpg';
+export { default as irishFlag } from './irishFlag.png';
+export { default as monastery } from './monastery.png';
+export { default as northeast } from './northeast.png';
+export { default as natlParkService } from './natlParkService.png';
