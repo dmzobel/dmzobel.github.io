@@ -43,7 +43,13 @@ const Home = () => (
           >
             voracious reader
           </a>, frequent movie-goer, and sports nut. Feel free to reach out on
-          LinkedIn!
+          <a
+            href="https://www.linkedin.com/in/marshallzobel/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>!
         </p>
       </div>
     </div>

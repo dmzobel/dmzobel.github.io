@@ -11,7 +11,6 @@ import {
 } from './images';
 
 const data = [
-  // TODO: images for all of these
   {
     id: 10,
     category: 'Work Experience',
@@ -45,19 +44,19 @@ const data = [
     description: [
       'Tested the effectiveness of internal controls, summarized control deficiencies, and recommended improvements',
       'Mapped client processes across multiple operational areas',
-      'Managed the planning and execution of control testing stages'
+      'Managed the planning and execution of control test phases'
     ],
     image: pwc
   },
   {
     id: 7,
     category: 'Cool Stuff',
-    place: 'Pilgrimage to the Land of My Ancestors (i.e. Ireland)',
+    place: 'Pilgrimage to the Land of My Ancestors (Ireland)',
     dates: 'Sept 2017',
     description: [
       'Hiked from Doolin up the Cliffs of Moher',
       'Danced with the locals',
-      `Stole a leprechaun's pot o' gold`
+      `Played Ed Sheeran on repeat while driving through the country`
     ],
     image: irishFlag
   },
