@@ -18,7 +18,7 @@ const TimelineItem = ({ data }) => {
             <summary>Details</summary>
             <ul className="resume-description">
               {data.description.map(item => (
-                <li>
+                <li key={item.slice(0, 10)}>
                   <h5>{item}</h5>
                 </li>
               ))}

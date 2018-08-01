@@ -11,7 +11,7 @@ const Home = () => (
       </div>
       <div className="banner-text">
         <h2>Hey, I'm Marshall:</h2>
-        <Technologies primary={true} />
+        <br />
         <p>
           I'm a software developer currently living in New York. I specialize in
           writing JavaScript at all levels of the stack, and I'm always up for
@@ -42,7 +42,7 @@ const Home = () => (
             rel="noopener noreferrer"
           >
             voracious reader
-          </a>, frequent movie-goer, and sports nut. Feel free to reach out on
+          </a>, frequent movie-goer, and sports nut. Feel free to reach out on{' '}
           <a
             href="https://www.linkedin.com/in/marshallzobel/"
             target="_blank"
@@ -54,11 +54,13 @@ const Home = () => (
       </div>
     </div>
     <div className="sub-section">
-      <h1>Additional Technologies</h1>
+      <h1>Technologies</h1>
+      <br />
       <Technologies />
     </div>
     <div className="sub-section">
       <h1>Interests</h1>
+      <br />
       <Interests />
     </div>
   </React.Fragment>
