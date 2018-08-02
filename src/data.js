@@ -56,7 +56,7 @@ const data = [
     description: [
       'Hiked from Doolin up the Cliffs of Moher',
       'Danced with the locals',
-      `Played Ed Sheeran on repeat while driving through the country`
+      'Learned to pour the perfect pint of Guinness'
     ],
     image: irishFlag
   },

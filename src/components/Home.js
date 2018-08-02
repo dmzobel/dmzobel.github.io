@@ -15,7 +15,7 @@ const Home = () => (
         <p>
           I'm a software developer currently living in New York. I specialize in
           writing JavaScript at all levels of the stack, and I'm always up for
-          learning new technologies, whether it's Haskell, GraphQL, or augmented
+          learning new technologies, whether it's Elm, GraphQL, or augmented
           reality!
         </p>
         <br />
