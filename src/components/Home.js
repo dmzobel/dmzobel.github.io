@@ -2,6 +2,7 @@ import React from 'react';
 import { Marshall } from '../images';
 import Technologies from './Technologies';
 import Interests from './Interests';
+import './Home.style.css';
 
 const Home = () => (
   <React.Fragment>
@@ -53,12 +54,12 @@ const Home = () => (
         </p>
       </div>
     </div>
-    <div className="sub-section">
+    <div className="home-subsection">
       <h1>Technologies</h1>
       <br />
       <Technologies />
     </div>
-    <div className="sub-section">
+    <div className="home-subsection">
       <h1>Interests</h1>
       <br />
       <Interests />

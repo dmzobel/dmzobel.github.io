@@ -1,5 +1,6 @@
 import React from 'react';
 import { bhDemo1, bhDemo2, vintage, wizBang } from '../images';
+import './Projects.style.css';
 
 const Projects = () => (
   <React.Fragment>

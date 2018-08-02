@@ -1,0 +1,97 @@
+.resume-category {
+  color: #afafaf;
+}
+.resume-description {
+  padding: 5px 25px;
+}
+
+.timeline-block {
+  display: flex;
+  align-items: center;
+  margin: 20px 100px;
+}
+.timeline-block:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+/* this is the vertical line */
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: calc(50% - 2.5px);
+  height: 100%;
+  width: 5px;
+  background: slategray;
+}
+.timeline-container {
+  margin: 50px;
+  position: relative;
+}
+
+.timeline-date {
+  margin: 0 10%;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  position: relative;
+  width: 43%;
+  padding: 10px;
+  box-shadow: 0 0 20px -5px;
+  border-radius: 10px;
+}
+
+/* circular markers on the timeline */
+.timeline-marker {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: calc(50% - 10px);
+  background-color: slategray;
+}
+
+/***************** Mobile Responsive Layouts *****************/
+
+@media screen and (max-width: 900px) {
+  .timeline-block {
+    margin: 20px;
+  }
+  .timeline-container {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resume-description {
+    padding: 5px 15px;
+  }
+  .timeline-block,
+  .timeline-block:nth-child(even) {
+    flex-direction: column;
+    margin: 20px 0;
+    width: 100%;
+  }
+  .timeline-block:last-child {
+    margin-bottom: 75px;
+  }
+  /* vertical line for mobile viewing */
+  .timeline-container::before {
+    left: 1%;
+  }
+  .timeline-container {
+    margin: 0 0 0 20px;
+  }
+  .timeline-date {
+    display: none;
+  }
+  .timeline-item {
+    width: 75%;
+  }
+  .timeline-marker {
+    left: calc(1% - 7.5px);
+    margin-top: 25px;
+  }
+}
