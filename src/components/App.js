@@ -9,6 +9,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Projects from './Projects';
 import Timeline from './Timeline';
+import './App.style.css';
 
 const App = () => (
   <Router>

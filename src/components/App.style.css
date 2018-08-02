@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  color: rgb(71, 71, 71);
+}
+
+#app {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* used to make images circular */
+.circle-img {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #f7f7f7;
+  box-shadow: 0 0 30px -5px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+  height: 75px;
+  margin: 20px;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* changes the color of images (e.g. white to black, and vice versa) */
+.invert {
+  filter: invert(100%);
+}
+
+.small-icon {
+  height: 30px;
+}
+
+/***************** Mobile Responsive Layouts *****************/
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    margin: 20px 15px;
+  }
+}

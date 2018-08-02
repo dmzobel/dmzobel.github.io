@@ -1,5 +1,6 @@
 import React from 'react';
 import data from '../data.js';
+import './Timeline.style.css';
 
 const TimelineItem = ({ data }) => {
   return (

@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.banner-text {
+  margin: 0 50px;
+  max-width: 40%;
+}
+
+.headshot {
+  width: 100%;
+  height: auto;
+}
+
+.home-subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 50px 0;
+}
+
+/***************** Mobile Responsive Layouts *****************/
+
+@media screen and (max-width: 900px) {
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .banner-text {
+    max-width: 100%;
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-subsection {
+    text-align: center;
+  }
+}
