@@ -231,7 +231,7 @@ h4 {
   background-color: slategray;
 }
 
-/* Responsive layouts */
+/***************** Mobile Responsive Layouts *****************/
 @media screen and (max-width: 1200px) {
 }
 
@@ -255,7 +255,7 @@ h4 {
   }
   .project-section {
     flex-direction: column;
-    padding: 20px 10px;
+    padding: 20px;
   }
   .screenshot {
     max-height: 300px;
@@ -286,10 +286,6 @@ h4 {
   .icon {
     margin: 20px 15px;
   }
-  .navbar {
-    padding: 0;
-    justify-content: flex-start;
-  }
   .nav-left {
     display: none;
   }
@@ -303,6 +299,7 @@ h4 {
   .nav-right {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     background-color: #f7f7f7;
     justify-content: center;
