@@ -1,7 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import MobileNavbar from './MobileNavbar';
 import './Navbar.style.css';
+import {
+  github,
+  linkedin,
+} from '../images/index.js'
 
 const Navbar = () => (
   <div className="navbar">
@@ -21,29 +26,18 @@ const Navbar = () => (
         rel="noopener noreferrer"
       >
         <img
-          src="https://image.flaticon.com/icons/svg/25/25231.svg"
+          src={github}
           alt=""
           className="small-icon"
         />
       </a>
       <a
-        href="https://www.linkedin.com/in/marshallzobel/"
+        href={"https://www.linkedin.com/in/marshallzobel/"}
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
-          src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo-500x500.png"
-          alt=""
-          className="small-icon"
-        />
-      </a>
-      <a
-        href="https://twitter.com/dmzobel"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://logos-download.com/wp-content/uploads/2016/02/Twitter_logo_bird_transparent_png.png"
+          src={linkedin}
           alt=""
           className="small-icon"
         />

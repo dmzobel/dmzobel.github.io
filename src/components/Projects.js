@@ -1,5 +1,6 @@
 import React from 'react';
-import { bhDemo1, bhDemo2, vintage, wizBang } from '../images';
+
+import { bhDemo1, bhDemo2, postgres, react, redux, sequelize, vintage, wizBang } from '../images';
 import './Projects.style.css';
 
 const Projects = () => (
@@ -98,22 +99,22 @@ const Projects = () => (
         <div className="screenshot-overlay">
           <div>
             <img
-              src="https://d1eq8vvyuam4eq.cloudfront.net/assets/images/hacknlearn/react-logo.svg"
+              src={react}
               alt="react"
               className="icon"
             />
             <img
-              src={`https://cdn.worldvectorlogo.com/logos/redux.svg`}
+              src={redux}
               alt="redux"
               className="icon"
             />
             <img
-              src="https://cdn.worldvectorlogo.com/logos/sequelize.svg"
+              src={sequelize}
               alt="sequelize"
               className="icon"
             />
             <img
-              src={`https://cdn.worldvectorlogo.com/logos/postgresql.svg`}
+              src={postgres}
               alt="postgres"
               className="icon"
             />
@@ -129,23 +130,23 @@ const Projects = () => (
         <div className="screenshot-overlay">
           <div>
             <img
-              src="https://d1eq8vvyuam4eq.cloudfront.net/assets/images/hacknlearn/react-logo.svg"
+              src={react}
               alt="react"
               className="icon"
             />
             <img
-              src={`https://cdn.worldvectorlogo.com/logos/redux.svg`}
+              src={redux}
               alt="redux"
               className="icon"
             />
             <img
-              src={`https://cdn.worldvectorlogo.com/logos/postgresql.svg`}
-              alt="postgres"
+              src={sequelize}
+              alt="sequelize"
               className="icon"
             />
             <img
-              src={`https://cdn.glitch.com/project-avatar/0d184ee3-fd8d-4b94-acf4-b4e686e57375.png`}
-              alt="passport"
+              src={postgres}
+              alt="postgres"
               className="icon"
             />
           </div>

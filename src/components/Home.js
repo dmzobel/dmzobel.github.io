@@ -1,5 +1,5 @@
 import React from 'react';
-import { Marshall } from '../images';
+import { marshall } from '../images';
 import Technologies from './Technologies';
 import Interests from './Interests';
 import './Home.style.css';
@@ -8,16 +8,15 @@ const Home = () => (
   <React.Fragment>
     <div className="banner">
       <div className="circle-img">
-        <img src={Marshall} alt="" className="headshot" />
+        <img src={marshall} alt="" className="headshot" />
       </div>
       <div className="banner-text">
         <h2>Hey, I'm Marshall:</h2>
         <br />
         <p>
           I'm a software developer currently living in New York. I specialize in
-          writing JavaScript at all levels of the stack, and I'm always up for
-          learning new technologies, whether it's Elm, GraphQL, or augmented
-          reality!
+          writing Python and JavaScript at all levels of the stack, and I'm always up for
+          learning new technologies, whether it's Elm, GraphQL, or the latest SQL dialect!
         </p>
         <br />
         <p>

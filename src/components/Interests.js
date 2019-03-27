@@ -1,40 +1,50 @@
 import React from 'react';
 
+import {
+  baseball,
+  book,
+  exercise,
+  hiking,
+  movies,
+  skiing,
+  yoga,
+} from '../images/index.js'
+
 export default () => (
   <div className="icon-row">
     <img
-      src={`https://d30y9cdsu7xlg0.cloudfront.net/png/81057-200.png`}
+      src={hiking}
       alt="hiking"
       className="icon"
     />
     <img
-      src={`https://d30y9cdsu7xlg0.cloudfront.net/png/54547-200.png`}
+      src={baseball}
       color="white"
       alt="baseball"
       className="icon"
     />
     <img
-      src={`http://www.clker.com/cliparts/L/Z/B/l/f/c/icon-ski-md.png`}
+      src={skiing}
       alt="skiing"
       className="icon invert"
     />
     <img
-      src="https://d30y9cdsu7xlg0.cloudfront.net/png/2248-200.png"
+      src={book}
       alt="books"
       className="icon"
     />
     <img
-      src={`https://d30y9cdsu7xlg0.cloudfront.net/png/38420-200.png`}
+      src={exercise}
       alt="exercise"
       className="icon"
     />
     <img
-      src={`https://image.flaticon.com/icons/png/512/193/193929.png`}
+      src={movies}
       alt="movies"
       className="icon"
     />
     <img
-      src="http://cdn.onlinewebfonts.com/svg/img_22713.png"
+      src={yoga}
       alt="yoga"
       className="icon"
     />

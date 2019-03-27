@@ -1,16 +1,28 @@
 import {
-  wm,
   fullstack,
-  stAndrews,
-  pwc,
   grantThornton,
   irishFlag,
-  northeast,
   monastery,
-  natlParkService
+  natlParkService,
+  northeast,
+  simon,
+  pwc,
+  stAndrews,
+  wm,
 } from './images';
 
 const data = [
+  {
+    id: 11,
+    category: 'Work Experience',
+    place: 'Simon Data',
+    title: 'Software Engineer',
+    dates: 'October 2018 - Present',
+    description: [
+      `Build and monitor ETL processes that facilitate data in and data out of Simon's production application`,
+    ],
+    image: simon
+  },
   {
     id: 10,
     category: 'Work Experience',
